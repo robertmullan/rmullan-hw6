@@ -4,17 +4,25 @@ body {
 }
 
 .container {
-    width: 100%;
-    margin: auto;
-    background-color: white;
-    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(126, 125, 125); /* creates a colored border around the content div */
+    padding: 10px; /* created a border fully around the content div */ 
+}
+
+.content {
+    display: inline-block;
+    background-color: lightgray;
+    margin: 0 auto; /* used to center the div */
+    text-align: left; /* left justifies the text inside of the div */
+    padding: 20px;
+    border: 2px solid red;
 }
 
 /* colors */
 /* green: #04aa6d */
 
 body {
-    background-color: offwhite;
+    background-color: white;
     font-family: Arial, sans-serif;
     font-size: 1.1rem;
   }
@@ -27,6 +35,10 @@ body {
     font-size: 1.5rem;
   }
   
+  h3 {
+    font-size: 2.5rem;
+  }
+
   header {
     background-color: #d10d0d;
     text-align: center;
@@ -120,5 +132,5 @@ body {
   
   #container {
     width: 95%;
-    margin: 12 auto;
+    margin: auto;
   }
